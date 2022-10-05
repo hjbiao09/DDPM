@@ -6,15 +6,14 @@ from pathlib import Path
 from train import train
 from eval import test
 from model import Model
-
+from pprint import pprint
 
 def main(config):
-    cudnn.beta_1 = True
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     os.makedirs(config.save_weights_dir, exist_ok=True)
     model = Model(T=config.T, ch=config.channel, ch_mult=config.channel_mult,
                   attn=config.attn, num_res_blocks=config.num_res_blocks, dropout=config.dropout).to(device)
-    print(model)
+    pprint(model)
     if config.mode == 'train':
         train(model, config)
     else:
@@ -62,5 +61,5 @@ if __name__ == '__main__':
     parser.add_argument('--dropout', type=float, default=0.15)
 
     config = parser.parse_args()
-    print(config)
+    pprint(config)
     main(config)
