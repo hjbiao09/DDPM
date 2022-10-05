@@ -5,9 +5,6 @@ To understand DDPM, I personally re-created the above project. So most of conten
 Also i write a korean [simple review](https://clumsy-mustard-c19.notion.site/Diffusion-Model-c41dfaa0f67943ba81238b1d11efe2e7) of [Lil'Log diffusion introdution](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/).
 If you are new to diffusion model, i strongly recommend to read the blog above.
 
-Classifier-Free Guidance and DDIM will be updated in the future...
-
-For better understanding of DDPM, may need to review VAE and VQ-VAE(which was used in latent-diffusion).
 
 # Algorithms
 ![main_img](imgs/main_algorithm.png)
@@ -19,3 +16,7 @@ For better understanding of DDPM, may need to review VAE and VQ-VAE(which was us
 # Notify me
 
 At last, i wrote the codes roughly, so it could be many bugs. Please notify me of bugs at the issues.
+
+DDIM, GLIDE, classifier free guidance and latent-diffusion will be updated in the future...
+
+For better understanding of DDPM, may need to review VAE and VQ-VAE(which was used in latent-diffusion).
