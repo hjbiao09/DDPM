@@ -3,7 +3,7 @@ This project is a reproduction of [zoubouhao's](https://github.com/zoubohao/Deno
 
 To understand DDPM, I personally re-created the above project. So most of contents are from the link above.
 Also i write a korean [simple review](https://clumsy-mustard-c19.notion.site/Diffusion-Model-c41dfaa0f67943ba81238b1d11efe2e7) of [Lil'Log diffusion introdution](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/).
-If you are new to diffusion model, i strongly recommended to read the blog above.
+If you are new to diffusion model, i strongly recommend to read the blog above.
 
 Classifier-Free Guidance and DDIM will be updated in the future...
 
